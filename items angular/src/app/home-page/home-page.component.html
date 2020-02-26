@@ -1,0 +1,65 @@
+
+
+<body style="background-color: powderblue;">
+
+    <h1>welcome</h1>
+<hr>
+
+
+<table>
+    <tr>
+        <td>Name</td>
+        <td>Amount</td>
+        <td>inventory code</td>
+        <td>Request</td>
+    </tr>
+  <tr *ngFor="let items of myService.allItems; let i=index ">
+        <td>
+            <input type="text" [(ngModel)]="items.name" />
+        </td>
+        <td>
+            <input type="number" [(ngModel)]="items.amount" />
+        </td>
+        <td>
+            <input type="text" [(ngModel)]="items.inventoryCode" />
+        </td>
+        <br>
+            <div>
+                <button (click)="quantityItems(items.itemsId, i)">click for show quantity</button>
+                <td>
+                    <input type="number" [(ngModel)]="items.quantityOfItems" disabled>
+                </td> 
+                <button (click)="depositQuantity(items)">Deposit to stock =></button>
+                <input type="number" [(ngModel)]="items.deposit" />
+                <button (click)="withdrawalQuantity(items)">Withdrawal from stock =></button>
+                <input type="number" [(ngModel)]="items.Withdrawal"/>
+                <button (click)="updateItems(items)">Update</button>
+                <button (click)="deleteItems(items.itemsId)">Delete</button>
+            </div>
+    </tr>
+</table>
+<br>
+
+<h1>Creat Items</h1>
+<br>
+<table>
+    <tr>
+        <td>Name</td>
+        <td>Amount</td>
+        <td>inventory code</td>
+    </tr>
+        <td>
+            <input type="text" [(ngModel)]="items.name" />
+        </td>
+        <td>
+            <input type="number" [(ngModel)]="items.amount" />
+        </td>
+        <td>
+            <input type="text" [(ngModel)]="items.inventoryCode" />
+        </td>
+            <div>
+                <button (click)="addItems(items)">Edit</button>
+            </div>
+</table>
+<br>
+</body>
