@@ -19,6 +19,8 @@ Delete an item from stock  
 
 Data should be persisted on H2 DB using JPA.
 
+Angular pages which enable to create/read/update and/delete the item.
+
 ## Links
 
 Java : https://github.com/AmosZit/Project-Items/tree/master/items%20java/src/main/java/items
