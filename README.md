@@ -6,19 +6,23 @@
 
 # Functionality: 
 
-List of the inventory items list (item no, name, amount, inventory code)
+> Java ( JPA )
 
-Read item details (by item no)
+* List of the inventory items list (item no, name, amount, inventory code)
 
-Withdrawal quantity of a specific item from stock
+* Read item details (by item no)
 
-Deposit quantity of a specific item to stock
+* Withdrawal quantity of a specific item from stock
 
-Add item to stock
+* Deposit quantity of a specific item to stock
 
-Delete an item from stock  
+* Add item to stock
 
-Angular pages which enable to create/read/update and/delete the item.
+* Delete an item from stock  
+
+> Angular 8
+
+Pages which enable to create/read/update and/delete the item.
 
 ## Links
 
