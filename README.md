@@ -1,7 +1,7 @@
 
 # Project-Items
 
-> this project using JPA 
+>this project using JPA, 
 >you need download h2 => http://www.h2database.com/html/download.html
 
 # Functionality: 
