@@ -1,6 +1,7 @@
 
 # Project-Items
 
+> this project using JPA 
 >you need download h2 => http://www.h2database.com/html/download.html
 
 # Functionality: 
@@ -16,8 +17,6 @@ Deposit quantity of a specific item to stock
 Add item to stock
 
 Delete an item from stock  
-
-Data should be persisted on H2 DB using JPA.
 
 Angular pages which enable to create/read/update and/delete the item.
 
